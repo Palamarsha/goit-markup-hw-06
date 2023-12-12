@@ -43,3 +43,16 @@ ol {
 .web-icons {
     list-style-type: none;
 }
+
+.container{
+   max-width: 320px; 
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.open-menu-btn{
+background-color: transparent;
+stroke: #2F2F37;  
+}
