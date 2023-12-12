@@ -47,11 +47,11 @@ ul {
 }
 
 .container{
-   max-width: 320px; 
-   padding-left: 15px;
-   padding-right: 15px;
-   /* margin-left: auto;
-   margin-right: auto; */
+max-width: 320px;
+padding-left: 16px;
+padding-right: 16px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .open-menu-btn{
@@ -73,6 +73,9 @@ border: none;
     align-items: center;
 justify-content: space-between;
 padding-top: 18px;
+height: 57px;
+padding-bottom: 18px;
+
 
 }
 
@@ -150,9 +153,9 @@ background-color:#FFFFFF ;
 transform: translatex(100%);
 }
 
-.mobile-menu.is-open{
+/* .mobile-menu.is-open{
     transform: translatex(0%);
-   }
+   } */
 
 .other-styles{
 color: #404BBF;
@@ -164,11 +167,14 @@ color: #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    font-style: normal;
 
 }
-/* .mobile-menu-contact{
-    display: inline-block;
-    gap: 24px; */
+.mobile-menu-contact-item{
+    display: inline-flex;
+    gap: 24px; 
+}
+
 
 .mobile-icons-list {
     fill: #f4f4fd;
@@ -187,10 +193,68 @@ justify-content: center;
 .mobile-web-icons{
     display: flex;
     gap: 40px;
+    align-items: center;
+        justify-content: center;
 }
 
 .mobile-contacts{
     margin-bottom: 48px;
-   
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.main-page {
+
+    background: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/adapt/mob/Dark-bg-mob.jpg);
+    background-size: cover;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    min-width: 320px;
+    height: 432px;
+
+}
+
+.main-text{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+    padding-top: 72px;
+    
+}
+.main-button{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
    
 }
