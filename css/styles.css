@@ -41,7 +41,8 @@ ol {
 .presents-cards,
 .top-advantages,
 .web-icons,
-.mobile-menu {
+.mobile-menu,
+ul {
     list-style-type: none;
 }
 
@@ -98,6 +99,8 @@ padding-top: 18px;
 }
 .mobile-links{
     position: relative;
+    margin-top: 72px;
+    margin-bottom: 168px;
 }
 
 .mobile-close-btn{
@@ -136,6 +139,8 @@ text-decoration: none;
 
 .mobile-menu{
 position: fixed;
+padding-left: 16px;
+padding-right: 16px;
 top: 0;
 left: 0;
 width:100%;
@@ -170,15 +175,22 @@ color: #404BBF;
 }
 
 .mobile-app-icons{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    display: flex;
-    align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4D5AE5;
+display: flex;
+align-items: center;
 justify-content: center;
 }
+
 .mobile-web-icons{
     display: flex;
     gap: 40px;
+}
+
+.mobile-contacts{
+    margin-bottom: 48px;
+   
+   
 }
