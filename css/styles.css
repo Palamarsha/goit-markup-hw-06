@@ -106,6 +106,7 @@ padding-bottom: 18px;
     margin-bottom: 168px;
 }
 
+
 .mobile-close-btn{
     position: absolute;   
     top: 24px;
@@ -128,6 +129,12 @@ padding-bottom: 18px;
 .lets-close{
 stroke-width: 1px;
 stroke: #2E2F42;
+}
+.mobile-menu-item{
+    margin-bottom: 40px;
+}
+.mobile-nav-menu{
+margin-bottom: 128px;
 }
 
 .mobile-menu-link{
@@ -153,9 +160,9 @@ background-color:#FFFFFF ;
 transform: translatex(100%);
 }
 
-/* .mobile-menu.is-open{
+.mobile-menu.is-open{
     transform: translatex(0%);
-   } */
+   } 
 
 .other-styles{
 color: #404BBF;
@@ -168,6 +175,7 @@ color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-style: normal;
+    margin-bottom: 24px;
 
 }
 .mobile-menu-contact-item{
@@ -179,6 +187,9 @@ color: #404BBF;
 .mobile-icons-list {
     fill: #f4f4fd;
 }
+.mobile-icon-links{
+    margin-top: 24px;
+}
 
 .mobile-app-icons{
 width: 40px;
@@ -188,6 +199,7 @@ background-color: #4D5AE5;
 display: flex;
 align-items: center;
 justify-content: center;
+line-height: 0;
 }
 
 .mobile-web-icons{
