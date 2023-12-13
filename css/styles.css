@@ -162,9 +162,9 @@ min-width: 320px;
 min-height: 640px;
 }
 
-.mobile-menu.is-open{
+/* .mobile-menu.is-open{
     transform: translatex(0%);
-   } 
+   }  */
 
 .other-styles{
 color: #404BBF;
