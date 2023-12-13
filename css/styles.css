@@ -158,6 +158,8 @@ height:100%;
 z-index: 9999;
 background-color:#FFFFFF ;
 transform: translatex(100%);
+min-width: 320px;
+min-height: 640px;
 }
 
 .mobile-menu.is-open{
