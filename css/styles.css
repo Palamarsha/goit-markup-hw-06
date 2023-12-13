@@ -315,6 +315,7 @@ background: var(--CLOUD, #F4F4FD);
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
+    margin-bottom: 8px;
 }
 .job-title {
     color: #434455;
@@ -326,11 +327,15 @@ background: var(--CLOUD, #F4F4FD);
     letter-spacing: 0.02em;
     text-align: center;
 }
+.prof-container{
+    margin-top: 32px;
+}
 .web-icons {
     display: flex;
     justify-content: center;
     gap: 24px;
     stroke: #F4F4FD;
+    margin-top: 8px;
 }
 
 .app-icons {
