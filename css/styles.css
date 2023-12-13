@@ -279,7 +279,7 @@ justify-content: center;
 }
 .advantages-container{
     padding-top: 96px;
-    padding-bottom: 96px;
+    padding-bottom: 24px;
    /* max-height: 7216px; */
 
 }
@@ -291,6 +291,7 @@ justify-content: center;
 }
 .team-list-container{
     padding-top: 96px;
+    padding-bottom: 24px;
 }
 .team-list-item{
     color: #2E2F42;
@@ -356,12 +357,10 @@ background: var(--CLOUD, #F4F4FD);
 .icons-list{
     fill: #F4F4FD;
 }
-.team-list-container{
-    padding-bottom: 96px;
-}
 
 .examples-container{
 padding-top: 96px;
+padding-bottom: 48px;
 }
 
 .top-text{
@@ -397,6 +396,14 @@ padding-top: 96px;
 }
 .last-page-container{
     padding-top: 98px;
+    background: #2E2F42;
+    width: 320px;
+    height: 664px;
+    flex-shrink: 0;
+    text-align: center;
+  
+
+
 }
 
 .logofin {
@@ -445,6 +452,12 @@ padding-top: 96px;
  display: flex;
  gap: 16px;
  list-style-type: none;
+ align-items: center;
+ justify-content: center;
+}
+.send-icon{
+    fill: #FFFFFF;
+    margin-left: 16px;
 }
 .last-page-links {
     width: 100%;
@@ -490,6 +503,7 @@ width: 40px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: transparent;
+    opacity: 0.3;
 }
 .subscribe-btn {
     color: #FFF;
@@ -502,14 +516,12 @@ width: 40px;
     background: #4D5AE5;
     min-width: 165px;
     height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     border: none;
     border-radius: 4px;
     margin-bottom: 96px;
     margin-top: 16px;
+    
 }
 .last-page-container{
   margin: auto;
