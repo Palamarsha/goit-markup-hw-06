@@ -215,6 +215,14 @@ justify-content: center;
     height: 432px;
 
 }
+@media screen and (min-resolution:192dpi){
+    .main-page{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+                url(../images/adapt/mob/Dark-bg-mob@2x.jpg);
+      
+    }
+}
 
 .main-text {
     color: var(--WHITE, #FFF);
