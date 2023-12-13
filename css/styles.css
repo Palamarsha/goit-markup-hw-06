@@ -224,6 +224,7 @@ justify-content: center;
     }
 }
 
+
 .main-text {
     color: var(--WHITE, #FFF);
     text-align: center;
@@ -288,7 +289,9 @@ justify-content: center;
 .advantages{
     background: #FFF;
 }
-
+.team-list-container{
+    padding-top: 96px;
+}
 .team-list-item{
     color: #2E2F42;
     text-align: center;
