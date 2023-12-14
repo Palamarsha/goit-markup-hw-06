@@ -394,7 +394,7 @@ padding-bottom: 48px;
 .presents-cards-item{
     margin-bottom: 48px;
     border: 1px solid var(--CLOUD, #F4F4FD);
-    background: var(--WHITE, #FFF);
+    background:  #FFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .list-category{
@@ -771,13 +771,15 @@ width: 256px;
             align-items: center;
         }
     
-        .head-page-container {
+         .head-page-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-right: 16px;
-            padding-left: 16px;
-        }
+           min-width: 768px;
+            height: 72px;
+            margin-right: 0;
+            margin-left: 0;
+        
         .menu-contact{
             display: block;
         }
@@ -805,9 +807,47 @@ width: 256px;
         .menu-link-first{
             color: #404BBF;
         }
+         .menu-link-first::after {
+            content: "";
+             width: 48px;
+            height: 4px;
+            border-radius: 2px;
+            display: block;
+            position: absolute;
+             bottom: -1px; 
+            left: 0;
+            background-color: #404BBF;
+            margin-bottom: -20px;
+            }
+            .menu-link-first {
+            position: relative;
+            color: #404bbf;
+            }
         .menu-link,
         .menu-contact-link{
             text-decoration: none;
+        }
+        .main-page{
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url(../images/adapt/tablet/Dark-bg.jpg);
+        }
+        .main-text{
+            color: #FFF;
+            display: block;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.07;
+                letter-spacing: 0.02em;
+                width: 496px;
+                height: 120px;
+                margin-left: auto;
+                margin-right: auto;
+                
+               
         }
     }
 
