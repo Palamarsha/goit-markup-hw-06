@@ -547,9 +547,202 @@ width: 40px;
     margin-bottom: 8px;
 }
 
+.backdrop.is-open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(46, 47, 66, 0.40);
+    padding: 72px 24px 24px 24px;
+}
+/* .backdrop.is-open{
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
+} */
+.modal-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    min-width: 288px;
+    min-height: 623px;
+    background-color: #FCFCFC;
+    transform: translate(-50%, -50%) scale(1);
+    border-radius: 4px;
+    padding: 72px 24px 24px 24px;
+    
+}
+.user-name-wrapper {
+    width: 256px;
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+}
+.backdrop-icons {
+    stroke: #2E2F42;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.comment {
+
+    color: rgba(46, 47, 66, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    width: 256px;
+    height: 138px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    background-color: transparent;
+    outline: transparent;
+    resize: none;
+}
+.backdrop-text {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+.user-info {
+    width: 256px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    outline: transparent;
+}
+.backdrop-box {
+    /* position: absolute; */
+width: 256px;
 
 
+}
 
+.checkbox {
+    display: block;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 24px;
+}
+.checkbox-text {
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+.other-style-text {
+    color: #4D5AE5;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    margin-left: 4px;
+
+}
+.checkbox-agree {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    border-radius: 2px;
+    align-content: start;
+    margin-right: 8px;
+    display: inline-flex;
+
+}
+.backdrop-btn {
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-bottom: 24px;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    display: block;
+    border: none;
+    margin: auto;
+    margin-top: 24px;
+}
+.user-name-wrapper {
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+    display: block;
+}
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    stroke: rgba(0, 0, 0, 0.10);
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    background-color: #e7e9fc;
+}
+.close-btn-icon {
+    stroke: #2E2F42;
+}
+.textarea {
+    margin-bottom: 16px;
+}
+.levels {
+    position: relative;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.box {
+    position: relative;
+}
+
+.privacy-policy-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
 
 
 
