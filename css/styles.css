@@ -778,6 +778,7 @@ width: 256px;
     height: 72px;
     margin-right: 0;
     margin-left: 0;
+    }
         
     .menu-contact{
      display: block;
@@ -838,14 +839,23 @@ width: 256px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     width: 496px;
-    height: 120px;
     margin-left: auto;
-    margin-right: auto;        
+    margin-right: auto;
+    margin-bottom: 36px; 
+    }
+    .main-button{
+    color: var(--WHITE, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+     font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     }
 
     .main-page{
-    width: 768px;
-    height: 436px;
+    min-width: 768px;
+    min-height: 436px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
     url(../images/adapt/tablet/Dark-bg.jpg);   
@@ -861,8 +871,8 @@ width: 256px;
         url(../images/adapt/tablet/Dark-bg@2x.jpg);
         }
     }    
-    }
-}
+ }
+
 
 
 @media screen and (min-width: 1158px) {
