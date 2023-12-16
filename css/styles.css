@@ -403,6 +403,15 @@ padding-bottom: 48px;
 }
 .job-title-top{
     margin-bottom: 72px;
+    border-radius: 0px 0px 4px 4px;
+    width: 264px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .last-page{
     background: #2E2F42;
@@ -844,7 +853,7 @@ width: 256px;
     margin-bottom: 36px; 
     }
     .main-button{
-    color: var(--WHITE, #FFF);
+    color: #FFF;
     font-family: Roboto;
     font-size: 16px;
      font-style: normal;
@@ -945,10 +954,44 @@ width: 256px;
     column-gap: 24px;
     row-gap: 72px;
     justify-content: center;
-    padding-bottom: 72px;
+    padding-bottom: 48px;
  }
  .presents-cards-item {
     width: calc((100%-24px)/2);
+ }
+ /* footer */
+ .last-page-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    text-align: start;
+    align-content: center;
+    justify-content: center;
+    /* height: 456px; */
+ 
+ }
+
+ .last-page-text{
+    width: 264px;
+ }
+ .footer-logo{
+    display: block;
+    margin-right: 24px;
+    margin-bottom: 72px;
+    margin-top: 97px;
+ }
+ .footer-icons{
+    margin-top: 97px;
+ }
+ .footer-label{
+    margin-right: 24px;
+ }
+ .footer-form{
+   margin-bottom: 96px;
+ }
+ .subscribe-btn{
+   
  }
  }
 
