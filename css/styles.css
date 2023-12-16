@@ -1233,6 +1233,7 @@ width: 256px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: 100%;
 
 }
 
