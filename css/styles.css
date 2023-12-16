@@ -121,8 +121,7 @@ padding-bottom: 18px;
     padding: 0;
     cursor: pointer;
     background-color: transparent;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 
            
 }
@@ -240,7 +239,7 @@ line-height: 0;
 
 
 .main-text {
-    color: var(--WHITE, #FFF);
+    color: #FFF;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -766,90 +765,104 @@ width: 256px;
     gap: 40px;
     padding-left: 0;
     }
-        .head-navigation-container {
-            display: flex;
-            align-items: center;
+    .head-navigation-container {
+        display: flex;
+        align-items: center;
         }
     
-         .head-page-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-           min-width: 768px;
-            height: 72px;
-            margin-right: 0;
-            margin-left: 0;
+    .head-page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 768px;
+    height: 72px;
+    margin-right: 0;
+    margin-left: 0;
         
-        .menu-contact{
-            display: block;
-        }
-        .menu{
-            margin-left: 120px;
-        }
-    .menu-contact-link {
-        display: flex;
-        color: #434455;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.17;
-            letter-spacing: 0.04em;
-        }
-        .menu-link{
-            color: #2E2F42;
-                font-family: Roboto;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-        }
-        .menu-link-first{
-            color: #404BBF;
-        }
-         .menu-link-first::after {
-            content: "";
-             width: 48px;
-            height: 4px;
-            border-radius: 2px;
-            display: block;
-            position: absolute;
-             bottom: -1px; 
-            left: 0;
-            background-color: #404BBF;
-            margin-bottom: -20px;
-            }
-            .menu-link-first {
-            position: relative;
-            color: #404bbf;
-            }
-        .menu-link,
-        .menu-contact-link{
-            text-decoration: none;
-        }
-        .main-page{
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-            url(../images/adapt/tablet/Dark-bg.jpg);
-        }
-        .main-text{
-            color: #FFF;
-            display: block;
-                text-align: center;
-                font-family: Roboto;
-                font-size: 56px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 1.07;
-                letter-spacing: 0.02em;
-                width: 496px;
-                height: 120px;
-                margin-left: auto;
-                margin-right: auto;
-                
-               
-        }
+    .menu-contact{
+     display: block;
     }
+    .menu{
+    margin-left: 120px;
+    }
+    .menu-contact-link {
+    display: flex;
+    color: #434455;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    }
+    .menu-link{
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+    .menu-link-first{
+     color: #404BBF;
+    }
+    .menu-link-first::after {
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    bottom: -1px; 
+    left: 0;
+    background-color: #404BBF;
+    margin-bottom: -20px;
+    }
+    .menu-link-first {
+    position: relative;
+    color: #404bbf;
+    }
+    .menu-link,
+    .menu-contact-link{
+     text-decoration: none;
+    }
+
+    .main-text{
+    color: #FFF;
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    width: 496px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;        
+    }
+
+    .main-page{
+    width: 768px;
+    height: 436px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/adapt/tablet/Dark-bg.jpg);   
+    }
+
+
+    @media screen and (min-resolution:192dpi),
+    screen and (min-resolution:2dppx),
+    screen and (min-device-pixel-ratio:2){
+    .main-page{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)),
+        url(../images/adapt/tablet/Dark-bg@2x.jpg);
+        }
+    }    
+    }
+}
 
 
 @media screen and (min-width: 1158px) {
