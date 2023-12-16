@@ -1029,7 +1029,7 @@ width: 256px;
    }
  }
 
-
+/* desktop */
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1038,6 +1038,100 @@ width: 256px;
         padding-right: 15px;
     }
 
+    .main-page{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+        url(../images/hero.jpg);
+    }
+   @media screen and (min-resolution:192dpi),
+   screen and (min-resolution:2dppx),
+   screen and (min-device-pixel-ratio:2) {
+       .main-page {
+           background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                   rgba(46, 47, 66, 0.7)),
+               url(../images/adapt/desktop/bg@2x.jpg);
+       }
+   }
+   .menu-contact {
+       color: #434455;
+       font-family: Roboto;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       gap: 40px;
+       display: flex;
+       align-items: center;
+   }
+   .head-page-container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+        padding-right: 15px;
+        padding-left: 15px; 
+        margin-left: auto;
+        margin-right: auto;
+   }
+   .menu-contact-link {
+       color: #434455;
+       font-family: Roboto;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       display: flex;
+       padding: 24px 0 24px;
+   }
+   .menu-link {
+       padding-bottom: 24px;
+       padding-top: 24px;
+       display: block;
+       color: #2E2F42;
+       font-family: Roboto;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   }
+
+   .menu-link-first {
+       position: relative;
+       color: #404bbf;
+   }
+   .menu{
+    margin-left: 76px;
+   }
+
+   .contact{
+    display: flex;
+   }
+
+   .menu-link-first::after {
+       content: "";
+       width: 48px;
+       height: 4px;
+       border-radius: 2px;
+       display: block;
+       position: absolute;
+       bottom: 20px;
+       left: 0;
+       background-color: #404BBF;
+
+   
+}
+
+
+      
+   
+    
   
 
-}
+ 
+
+  
+
