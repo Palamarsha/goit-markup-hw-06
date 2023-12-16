@@ -569,11 +569,11 @@ width: 40px;
     background-color: rgba(46, 47, 66, 0.40);
     padding: 72px 24px 24px 24px;
 }
- .backdrop.is-open{
+ /* .backdrop.is-open{
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
-} 
+}  */
 .modal-window {
     position: absolute;
     top: 50%;
@@ -998,6 +998,35 @@ width: 256px;
  .subscribe-btn{
    
  }
+   .modal-window {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%) scale(1);
+       min-width: 408px;
+       min-height: 584px;
+       background-color: #FCFCFC;
+       transform: translate(-50%, -50%) scale(1);
+       border-radius: 4px;
+       padding: 72px 25px 24px 23px;
+   }
+
+   .user-name-wrapper {
+       width: 360px;
+   }
+
+   .user-info {
+       width: 100%;
+       height: 40px;
+   }
+
+   .backdrop-box {
+       width: 360px;
+   }
+
+   .comment{
+    width: 100%;
+   }
  }
 
 
@@ -1008,5 +1037,7 @@ width: 256px;
         padding-left: 15px;
         padding-right: 15px;
     }
-}
 
+  
+
+}
