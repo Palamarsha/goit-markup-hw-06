@@ -1214,6 +1214,19 @@ width: 256px;
     width: 1158px;
     align-items: center;
 }
+
+/* section4 */
+
+.web-icons{
+    padding-bottom: 0;
+}
+
+.team-list-container{
+    padding-top: 120px;
+    padding-bottom: 120px ;
+}
+
+}
       
    
     
