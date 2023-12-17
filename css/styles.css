@@ -764,7 +764,8 @@ width: 256px;
 
 /* tablet */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) 
+and (max-width:1157px) {
     .container {
         max-width: 768px;
     }
@@ -1007,19 +1008,32 @@ width: 256px;
     }
 
     /* section4 examples */
+
+    .examples{
+        padding: 96px 16px 96px 16px;
+    }
+
+    .list-category{
+        padding: 0;
+    }
+
+
+    .examples-container{
+        padding: 0;
+    }
+
  .presents-cards{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
     justify-content: center;
-    padding-bottom: 48px;
-    width: 768px;
+    
  }
 
  .presents-cards-item {
   
- width: calc((100%-24px)/2);
+ width: calc((100% - 24px) / 2);
  margin-bottom: 0;
 
  }
