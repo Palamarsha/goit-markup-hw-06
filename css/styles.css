@@ -955,6 +955,12 @@ width: 256px;
         align-items: center;
     }
 
+    .mob-picture{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
     /* section4 examples */
  .presents-cards{
     display: flex;
