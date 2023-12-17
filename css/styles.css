@@ -404,6 +404,7 @@ padding-bottom: 48px;
     margin-bottom: 32px;
 }
 .job-title-top{
+    width: calc(100%-32px);
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
     width: 264px;
@@ -877,7 +878,7 @@ width: 256px;
     
     /* section2 advantages */
     .advantages-container{
-        width: 100%;
+        max-width: 1158px;
         display: flex;
         padding-bottom: 96px;
     }
@@ -930,6 +931,7 @@ width: 256px;
     }  
    /* section3 team-list */
    
+   
     .team-cards{
         display: flex;
         flex-wrap: wrap;
@@ -950,6 +952,8 @@ width: 256px;
     }
     .team-list-container{
         padding-bottom: 96px;
+        min-width: 320px;
+        align-items: center;
     }
 
     /* section4 examples */
@@ -973,12 +977,14 @@ width: 256px;
  .last-page-container{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
     text-align: start;
     align-content: center;
     justify-content: center;
-    /* height: 456px; */
- 
+    height: 456px;
+ }
+ .subscribe-text{
+    margin-top: 0;
  }
 
  .last-page-text{
@@ -987,7 +993,7 @@ width: 256px;
  .footer-logo{
     display: block;
     margin-right: 24px;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     margin-top: 97px;
  }
  .footer-icons{
@@ -1031,6 +1037,7 @@ width: 256px;
    .comment{
     width: 100%;
    }
+   
  }
 
 /* desktop */
