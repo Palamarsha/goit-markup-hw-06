@@ -47,7 +47,7 @@ ul {
 }
 
 .container{
-max-width: 320px;
+min-width: 320px;
 padding-left: 16px;
 padding-right: 16px;
 margin-left: auto;
@@ -162,6 +162,8 @@ min-height: 640px;
 }
 
  .mobile-menu.is-open{
+    opacity: 0;
+    visibility: hidden;
     transform: translatex(0%);
    }  
 
@@ -547,6 +549,7 @@ width: 40px;
 }
 .last-page-container{
   margin: auto;
+  min-width: 320px;
 }
 .mobile-styles-category{
     margin-bottom: 32px;
@@ -574,6 +577,7 @@ opacity: 0;
 visibility: hidden;
 pointer-events: none;
 }  
+
 .modal-window {
     position: absolute;
     top: 50%;
