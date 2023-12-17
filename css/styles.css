@@ -984,7 +984,7 @@ width: 256px;
         justify-content: center;
     }
     .job-title-top{
-        width: calc((100% - 24px)/2);
+        width: calc((100% - 24px) / 2);
         padding: 0;
         border-radius: 0px 0px 4px 4px;
         background: #FFF;
