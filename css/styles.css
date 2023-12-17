@@ -1241,11 +1241,68 @@ width: 256px;
     width: calc((100% - 48px) / 3);
 }
 
-.examples-container {
+/* footer */
+
+.last-page-container {
+    display: flex;
+    align-items: baseline;
+    padding-top: 0;
+    height: auto;
+    flex-wrap: nowrap;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
     
+
+}
+
+.footer-logo {
+    margin-right: 120px;
+}
+
+.footer-form {
+    display: block;
+    margin-left: 80px;
+    width: 100%;
    
+}
+
+
+.last-page {
+    display: flex;
+    align-items: baseline;
+    background: #2E2F42;
+    
     
 }
+
+.footer-label{
+    width: 264px;
+    height: 40px;
+}
+.contact-email{
+    display: flex;
+}
+
+.subscribe-btn{
+    margin-top: 0;
+}
+
+.subscribe-email{
+    opacity: 1;
+}
+
+.subscribe-email::placeholder {
+ color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.2;
+    letter-spacing: 0.04em;
+}
+
+
 }
  
 
