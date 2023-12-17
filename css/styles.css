@@ -404,7 +404,6 @@ padding-bottom: 48px;
     margin-bottom: 32px;
 }
 .job-title-top{
-    width: calc(100%-32px);
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
     width: 264px;
