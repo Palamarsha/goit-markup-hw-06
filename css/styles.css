@@ -215,20 +215,23 @@ line-height: 0;
 .mobile-contacts{
     margin-bottom: 48px;
 }
-.main-page {
 
+/* section2 mob */
+.main-page {
+padding: 72px 16px 72px 16px;
     background: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/adapt/mob/Dark-bg-mob.jpg);
     background-size: cover;
-    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
-    min-width: 320px;
-    height: 432px;
+    
+}
 
+.main-page-container{
+    padding: 0;
 }
 @media screen and (min-resolution:192dpi){
     .main-page{
@@ -248,8 +251,8 @@ line-height: 0;
     line-height: 1.12;
     letter-spacing: 0.02em;
     margin-bottom: 72px;
-    padding-top: 72px;
-
+    padding:0;
+    text-transform: capitalize;
 }
 
 .main-button {
@@ -260,12 +263,12 @@ line-height: 0;
     letter-spacing: 0.04em;
     background: #4D5AE5;
     min-width: 169px;
-    height: 56px;
     display: block;
     border: none;
     border-radius: 4px;
     margin-right: auto;
     margin-left: auto;
+    padding: 16px 32px 16px 32px;
 
 }
 .menu-advantages-icons {
