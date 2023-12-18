@@ -446,25 +446,18 @@ padding: 96px 16px 96px 16px;
     padding: 32px 16px 32px 16px ;
 }
 
-
-
-
-
-
 /* footer */
+
 .last-page{
     background: #2E2F42;
+    padding: 98px 16px 96px 16px;
 }
 .last-page-container{
     padding-top: 98px;
     background: #2E2F42;
-    width: 320px;
-    height: 664px;
+    padding: 0;
     flex-shrink: 0;
     text-align: center;
-  
-
-
 }
 
 .logofin {
@@ -476,6 +469,10 @@ padding: 96px 16px 96px 16px;
     line-height: 1.16;
     letter-spacing: 0.03;
 
+}
+
+.footer-logo{
+    margin-bottom: 72px;
 }
 
 .logotype {
@@ -497,8 +494,8 @@ padding: 96px 16px 96px 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 17px;
-    margin-bottom: 72px;
-}
+    text-align: start;
+    }
 .footer-text{
     color: #FFF;
     font-family: Roboto;
@@ -529,7 +526,10 @@ padding: 96px 16px 96px 16px;
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.footer-form{
+    margin-top: 72px;
 }
 .last-links{
     fill: #F4F4FD;
@@ -546,7 +546,6 @@ width: 40px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 72px;
     margin-bottom: 16px;
 }
 .subscribe-email {
@@ -565,6 +564,7 @@ width: 40px;
     border-radius: 4px;
     background-color: transparent;
     opacity: 0.3;
+   
 }
 .subscribe-btn {
     color: #FFF;
@@ -575,19 +575,24 @@ width: 40px;
     letter-spacing: 0.04em;
     border-radius: 4px;
     background: #4D5AE5;
-    min-width: 165px;
-    height: 40px;
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    margin-bottom: 96px;
     margin-top: 16px;
-    
+    padding: 8px 24px 8px 24px;
+    display: inline-flex;
 }
-.last-page-container{
-  margin: auto;
-  min-width: 320px;
+
+.footer-label::placeholder{
+color:  #FFF;
+font-size: 12px;
+font-weight: 400;
+line-height: 2;
+letter-spacing: 0.04em;
+opacity: 0.6;
 }
+
+
 .mobile-styles-category{
     margin-bottom: 32px;
 }
@@ -595,7 +600,10 @@ width: 40px;
     margin-bottom: 8px;
 }
 
+
 /* backdrop */
+
+
 .backdrop.is-open {
     position: fixed;
     top: 0;
