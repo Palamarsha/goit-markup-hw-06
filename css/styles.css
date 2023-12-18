@@ -1242,9 +1242,8 @@ and (max-width: 1157px) {
        align-items: center;
         margin-left: auto;
         margin-right: auto;
-    
-
    } 
+
    .menu-contact-link {
        color: #434455;
        font-family: Roboto;
@@ -1382,7 +1381,8 @@ and (max-width: 1157px) {
 }
 
 .menu-advantages {
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 0;
 }
 
 .menu-advantages-icons {
@@ -1407,11 +1407,9 @@ and (max-width: 1157px) {
 }
 
 .advantages-container {
-
-    padding: 0 15px 0 15px;
-
+    padding: 0;
     align-items: center;
-}
+} 
 
 /* our team */
 
