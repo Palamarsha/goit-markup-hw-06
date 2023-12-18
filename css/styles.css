@@ -1228,7 +1228,7 @@ and (max-width: 1157px) {
 
 
   .head-page{
-    padding: 0 156px 0 156px; 
+    padding: 0;
   }
 
 .open-menu{
@@ -1240,12 +1240,11 @@ and (max-width: 1157px) {
        display: flex;
        justify-content:space-evenly;
        align-items: center;
-        padding-right: 24px 15px 24px 15px;
         margin-left: auto;
         margin-right: auto;
-        height: 72px;
-        
-   }
+    
+
+   } 
    .menu-contact-link {
        color: #434455;
        font-family: Roboto;
@@ -1280,18 +1279,10 @@ and (max-width: 1157px) {
    }
    .menu{
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;
     text-decoration: none;
+    margin-left: 76px;
 }
-    .menu-contact{
-        gap: 40px;
-    }
-
-   .contact{
-    display: flex;
-   }
 
    .menu-link-first::after {
        content: "";
@@ -1305,7 +1296,7 @@ and (max-width: 1157px) {
 
       .head-navigation-container{
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         align-items: center;
       }
 
