@@ -293,12 +293,9 @@ padding: 72px 16px 72px 16px;
 }
 
 .margin-bottom-out{
-    margin-bottom: 0;
+ margin-bottom: 0;
 }
 
-.top-advantages{
-
-}
 .text-menu-advantages{
     color:  #434455;
     font-size: 16px;
@@ -315,9 +312,11 @@ padding: 72px 16px 72px 16px;
     background: #FFF;
     padding: 96px 16px 96px 16px;
 }
+
+/* section our team */
+
 .team-list-container{
-    padding-top: 96px;
-    padding-bottom: 24px;
+    padding:0;
 }
 .team-list-item{
     color: #2E2F42;
@@ -330,7 +329,8 @@ padding: 72px 16px 72px 16px;
     margin-bottom: 72px;
 }
 .team-list{
-background: var(--CLOUD, #F4F4FD);
+background:#F4F4FD;
+padding: 96px 28px 96px 28px;
 }
 .team-names {
     color: #2E2F42;
@@ -354,8 +354,9 @@ background: var(--CLOUD, #F4F4FD);
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .prof-container{
-    margin-top: 32px;
+  padding: 32px 16px 32px 16px;
 }
 .web-icons {
     display: flex;
@@ -418,7 +419,6 @@ padding-bottom: 48px;
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
     width: 264px;
-    padding-bottom: 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -426,6 +426,11 @@ padding-bottom: 48px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
+.margin-bottom-out {
+    margin-bottom: 0;
+}
+
 .last-page{
     background: #2E2F42;
 }
