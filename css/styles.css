@@ -1034,6 +1034,7 @@ and (max-width: 1157px) {
         align-items: center;
         justify-content: center;
     }
+
     .job-title-top{
         align-items: center;
         justify-content: center;
@@ -1413,14 +1414,29 @@ and (max-width: 1157px) {
 
 /* our team */
 
+.team-list{
+    padding: 120px 16px 120px 16px ;
+}
+
 .web-icons{
     padding-bottom: 0;
 }
 
 .team-list-container{
-    padding-top: 120px;
-    padding-bottom: 120px ;
+    padding: 0;
 }
+
+.team-cards{
+    display: flex;
+    gap: 24px;
+
+}
+
+.job-title-top{
+width: calc((100% - 72px) / 4);
+margin-bottom: 0;
+}
+  
 
 /* our portfolio */
 
@@ -1429,8 +1445,6 @@ and (max-width: 1157px) {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: 100%;
-
 }
 
 .presents-cards-item {
