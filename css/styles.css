@@ -549,8 +549,7 @@ width: 40px;
     margin-bottom: 16px;
 }
 .subscribe-email {
-    width: 264px;
-    height: 40px;
+    width: 288px;
     background: #2E2F42;
     color: #FFF;
     font-size: 12px;
@@ -559,6 +558,7 @@ width: 40px;
     letter-spacing: 0.04em;
     padding-top: 8px;
     padding-left: 16px;
+    padding-bottom: 8px;
     border: 1px solid #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -581,6 +581,11 @@ width: 40px;
     margin-top: 16px;
     padding: 8px 24px 8px 24px;
     display: inline-flex;
+}
+
+
+.footer-label{
+    width: 100%;
 }
 
 .footer-label::placeholder{
