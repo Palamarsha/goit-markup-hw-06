@@ -269,8 +269,11 @@ padding: 72px 16px 72px 16px;
     margin-right: auto;
     margin-left: auto;
     padding: 16px 32px 16px 32px;
-
 }
+
+/* section 3 advantages */
+
+
 .menu-advantages-icons {
     display: none;
 }
@@ -283,9 +286,18 @@ padding: 72px 16px 72px 16px;
     line-height: 1.12;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 .menu-advantages{
     margin-bottom: 72px;
+}
+
+.margin-bottom-out{
+    margin-bottom: 0;
+}
+
+.top-advantages{
+
 }
 .text-menu-advantages{
     color:  #434455;
@@ -296,16 +308,12 @@ padding: 72px 16px 72px 16px;
     letter-spacing: 0.02em;
 }
 .advantages-container{
-    padding-top: 96px;
-    padding-bottom: 24px;
-   /* max-height: 7216px; */
-
+    padding:0;
 }
-
-   
 
 .advantages{
     background: #FFF;
+    padding: 96px 16px 96px 16px;
 }
 .team-list-container{
     padding-top: 96px;
