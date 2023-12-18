@@ -431,6 +431,27 @@ padding-bottom: 48px;
     margin-bottom: 0;
 }
 
+/* our portfolio */
+
+.examples{
+padding: 96px 16px 96px 16px;
+}
+
+.examples-container{
+    padding: 0;
+}
+
+.list-category{
+    margin: 0;
+    padding: 32px 16px 32px 16px ;
+}
+
+
+
+
+
+
+/* footer */
 .last-page{
     background: #2E2F42;
 }
