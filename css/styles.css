@@ -1284,15 +1284,18 @@ and (max-width: 1157px) {
     margin-left: 76px;
 }
 
-   .menu-link-first::after {
-       content: "";
-       width: 48px;
-       height: 4px;
-       border-radius: 2px;
-       display: block;
-       position: absolute;
-       bottom: 20px;
-      }
+   
+.menu-link-first::after {
+    content: "";
+     width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    background-color: #404BBF;
+    }
 
       .head-navigation-container{
         display: flex;
