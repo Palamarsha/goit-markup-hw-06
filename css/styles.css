@@ -47,7 +47,7 @@ ul {
 }
 
 .container{
-min-width: 320px;
+max-width: 320px;
 padding-left: 16px;
 padding-right: 16px;
 margin-left: auto;
@@ -61,20 +61,20 @@ fill: #2F2F37;
 .open-menu{
 background-color: transparent;
 border: none;
+padding: 0;
 }
 
 .menu,
 .menu-contact{
     display: none;
 }
-
+.head-page{
+padding: 15px 16px 17px 16px;
+}
 .head-page-container{
     display: flex;
     align-items: center;
-justify-content: space-between;
-/* /* padding-top: 18px;
-height: 57px; 
-padding-bottom: 18px; */
+ justify-content: space-between;
 
 
 }
