@@ -1462,27 +1462,32 @@ margin-bottom: 0;
 }
 /* footer */
 
+.last-page{
+    padding: 100px 16px 100px 16px ;
+}
+
 .last-page-container {
     display: flex;
     align-items: baseline;
     padding-top: 0;
     height: auto;
     flex-wrap: nowrap;
-    width: 1440px;
     margin-right: auto;
     margin-left: auto;
-    
+    padding: 0;
+    text-align: start;
 
 }
 
 .footer-logo {
     margin-right: 120px;
+    margin-bottom: 0;
 }
 
 .footer-form {
     display: block;
     margin-left: 80px;
-    width: 100%;
+    margin-top: 0;
    
 }
 
@@ -1497,10 +1502,10 @@ margin-bottom: 0;
 
 .footer-label{
     width: 264px;
-    height: 40px;
 }
 .contact-email{
     display: flex;
+    gap: 24px;
 }
 
 .subscribe-btn{
@@ -1511,6 +1516,7 @@ margin-bottom: 0;
 
 .subscribe-email{
     opacity: 1;
+    width: 264px;
 }
 
 .subscribe-email::placeholder {
@@ -1523,7 +1529,9 @@ margin-bottom: 0;
     letter-spacing: 0.04em;
 }
 
-
+ .subscribe-text {
+     text-align: start;
+ }
 }
  
 
