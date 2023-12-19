@@ -634,7 +634,6 @@ pointer-events: none;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     min-width: 288px;
-    min-height: 623px;
     background-color: #FCFCFC;
     transform: translate(-50%, -50%) scale(1);
     border-radius: 4px;
@@ -1533,6 +1532,28 @@ margin-bottom: 0;
      text-align: start;
  }
 
+ /* modal window */
+
+.modal-window{
+    padding: 72px 25px 24px 23px ;
+}
+
+.backdrop{
+    padding: 96px 180px 338px 180px;
+}
+.user-info{
+    width: 360px;
+}
+.backdrop-box{
+    width: auto;
+}
+.user-name-wrapper{
+    width: auto;
+}
+
+.comment{
+    width: 360px;
+}
 
 }
  
