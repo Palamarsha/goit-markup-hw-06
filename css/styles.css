@@ -620,7 +620,7 @@ opacity: 0.6;
     display: flex;
     justify-content: center;
     background-color: rgba(46, 47, 66, 0.40);
-    padding: 72px 24px 24px 24px;
+    padding: 8px 16px 9px 16px;
 }
  .backdrop.is-open{
 opacity: 0;
@@ -638,7 +638,7 @@ pointer-events: none;
     background-color: #FCFCFC;
     transform: translate(-50%, -50%) scale(1);
     border-radius: 4px;
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 24px 16px;
     
 }
 .user-name-wrapper {
@@ -748,15 +748,12 @@ width: 256px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-bottom: 24px;
     min-width: 169px;
-    height: 56px;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     display: block;
     border: none;
     margin: auto;
-    margin-top: 24px;
 }
 .user-name-wrapper {
     color: #8E8F99;
